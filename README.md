@@ -9,8 +9,26 @@ To tackle these limitations, we present UKEDR, a fused deep learning framework t
 
 ![Model Architecture](图片1.png)
 
+
+
+
+**To run the drug repositioning training, execute the script with the following command:**
+
+```
+sbatch clinapp_main.slurm
+```
+
+**To perform knowledge graph embedding, submit the `pairre_submit.slurm` script.**
+
+For the complete dataset, please see the **Data Availability** section. The full code directory is available in the **Code Availability** section.
+
+-----
+
+
+
 ## Data Availability
 The data used in this study can be downloaded from Google Drive: [Download Here](https://drive.google.com/file/d/1HJtJoflFfMx4pw8S-nCCASPSkXjyKXw-/view?usp=drive_link).
 
 ## Code Availability
 The code use in this study can be downloaded from：[Download here](https://drive.google.com/file/d/1Vf9h7fMLvPJmt4ggph084b5Ba99rAFcy/view?usp=drive_link).
+
